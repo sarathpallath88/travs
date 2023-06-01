@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UthrathilBhagavathy Temple</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" type="text/css">
+    <link href="./style.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="images/pto.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,700;1,500&family=Gayathri:wght@100&display=swap');
+    </style>
+
+</head>
+
+<body class="bg resp img-fluid" style="background-image:url(images/temple.jpeg);background-size:cover;width:auto;height: 100vh;background-repeat: no-repeat;">
+    <section class="topbar">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <h3><a href="index.php"><img src="images/title.png" height="115" class=" img-fluid"
+                                style="margin-top:10px;"></a></h3>
+                </div>
+                <div class=" col-lg-4 col-md-4 d-none d-md-block numbers align-items-center logo text-center"
+                    style="margin-top:10px; ">
+                    <span>
+                        <h3> <a href="" style="text-decoration:none;color:black;font-size: 15px;"><i
+                                    class="bi bi-geo-alt-fill"></i>&nbsp;UthrathilBhagavathy Temple.T N Puram</a> </h3>
+                    </span>
+                    <span>
+                        <h3> <a href="mailto:uthrathilbhagavathytemple@gmail.com"
+                                style="text-decoration:none;color:black;font-size:15px;"><i
+                                    class="bi bi-envelope-fill"></i>&nbsp;uthrathilbhagavathytemple@gmail.com</a> </h3>
+                    </span>
+                </div>
+                <div class=" col-lg-4 col-md-4 d-none d-sm-block numbers " style="margin-top:10px; ">
+                    <span>
+                        <h3> <a href="tel:9056789012" style="text-decoration:none;color:black;font-size:15px;"><i
+                                    class="bi bi-telephone-fill"></i>&nbsp;9056789012</a> </h3>
+                    </span>
+                    <span>
+                        <h3> <a href="tel:9056789012" style="text-decoration:none;color:black;font-size:15px;"><i
+                                    class="bi bi-telephone-fill"></i>&nbsp;9056789012</a> </h3>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="header">
+        <div class="container">
+            <div class="row">
+
+                <!-- <div class="col-lg-12">
+                   
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <section class="header-name">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3 class="text-center text-uppercase text-white pt-5 pb-3"> </h3>
+
+                </div>
+            </div>
+    </section>
+
+    <!-- <section class="container">
+        <div class="login">
+            <h1> Login </h1>
+            <form method="post" action="login_process.php">
+                <p><input type="text" name="email" value="" placeholder=" Email" class="name" autocomplete="off"></p>
+                <p><input type="password" name="password" value="" placeholder="Password" class="name"></p>
+                <p class="remember_me">
+                    <label style="color:#333">
+                        <a href="index.php"><i class="fas fa-home">Home</i></a>.
+                    </label>
+                <p class="submit"><input type="submit" name="submit" value="Login"></p>
+            </form>
+        </div>
+
+        <div class="login-help">
+
+        </div>
+    </section> -->
+    <section class="log">
+
+        <div class="container ">
+
+
+
+            <div class="col-lg-6 mx-auto">
+                <div class="card text-center">
+                    <div class="card-header text-center ">
+                        <h3>Login Form</h3>
+                        
+                    </div>
+                    
+                    <div class="card-body text-center">
+                        <h5 class="float-end d-grid gap-2 d-md-flex justify-content-md-end"><button class="rounded-circle"data-bs-toggle="tooltip" data-bs-placement="top" title="By Login You are accesspting our Terms. "><i class="bi bi-info-circle-fill"></i></button></h5>
+                        <form method="post" action="ulogin_process.php">
+                            <div class="input-field">
+                                <input type="text" name="email" autocomplete="off" required>
+                                <label>Email </label>
+                            </div>
+                            <div class="input-field">
+                                <input class="pswrd" type="password" name="password" required>
+                                <span class="show">SHOW</span>
+                                <label>Password</label>
+                            </div>
+
+
+                            <!-- <div class="button"> -->
+                            <!-- <div class="sup"> -->
+                            <!--  <input type="submit" name="submit" >--><button
+                                class="btn btn-danger btn-md d-grid gap-2 col-6 mx-auto " name="submit">login</button>
+                            <!-- </div>-->
+
+                        </form>
+                        <a href="index.php" class="float-start" style="text-decoration: none;"><i class="bi bi-house"></i>Home</a><a href="register.php" class="float-end" style="text-decoration: none;"><i class="bi bi-person-plus"></i>Signup</a>
+                    </div>
+                    <a href="" style="text-decoration: none;">Forgotpassword</a>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!--   <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="contain container-fluid mb-lg-4">
+                    <h1 class="text-center">Login Form</h1>
+                    <form method="post" action="login_process.php">
+                        <div class="input-field">
+                            <input type="text" name="email" autocomplete="off" required>
+                            <label>Email </label>
+                        </div>
+                        <div class="input-field">
+                            <input class="pswrd" type="password" name="password" required>
+                            <span class="show">SHOW</span>
+                            <label>Password</label>
+                        </div> -->
+        <!-- <div class="button"> -->
+        <!-- <div class="sup"> -->
+        <!--  <input type="submit" name="submit" ><button class="btn btn-danger btn-md d-grid gap-2 col-6 mx-auto " name="submit">login</button>
+                        <!-- </div>-->
+        <!-- </div> -->
+        <!-- </form> -->
+        <!-- <div class="auth">
+                Or login with
+            </div>
+            <div class="links">
+                <div class="facebook">
+                    <i class="fab fa-facebook-square"><span>Facebook</span></i>
+                </div>
+                <div class="google">
+                    <i class="fab fa-google-plus-square"><span>Google</span></i>
+                </div>
+            </div>
+                    <div class="signup">
+                       <a href="index.php">Home<i class="bi bi-house-fill"></i></a style="font size:10px;"> Not a member? <a href="register.php">Signup now</a>
+                    </div>
+                </div>
+            </div> -->
+        <!-- </div> -->
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <section class="footer bg-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                  
+                    <div class="col-lg-6">
+                        <h3 class="text-white pt-5 " style="border-bottom: 2px solid #fff;">About Temple</h3>
+                        <p class="text-uppercase text-white" style="text-align:justify;">ഏകദേശം അഞ്ഞൂറ്
+                            വർഷങ്ങൾക്ക് മുമ്പ് കിഴിയേടത്തു മനയ്ക്കലെ ഒരു കാരണവർ സ്ഥിരമായി കൊടുങ്ങല്ലൂരമ്മയെ ഭജിക്കാൻ
+                            പോകാറുണ്ടായിരുന്നു.
+                            കാലക്രമത്തിൽ അദ്ദേഹത്തിന് വയസ്സാവുകയും യാത്രചെയ്യാൻ കഴിയാതാവുകയും ചെയ്തു.ഒരു
+                            ദിവസം പതിവുപോലെ ഭജനമിരിക്കൽ കഴിഞ്ഞു യാത്രതിരിക്കാൻ നേരത്ത് ഭഗവതിയുടെ മുമ്പിലെത്തി
+                            ഇപ്രകാരം ചിന്തിച്ചു. "അമ്മേ, എനിക്കു വയ്യാതായി.ഇനി യാത്ര ചെയ്യാൻ പറ്റുമെന്ന് തോന്നുന്നില്ല.
+                            നിവൃത്തിയില്ലാതെ വന്നാൽ എന്താ ചെയ്യുക. കുട്ടികളെ ആരെയെങ്കിലും പറഞ്ഞയക്കാമെന്നു വെച്ചാൽ
+                            അതിനും നിവൃത്തിയില്ല. എന്തെങ്കിലും ഒരു വഴി കാണിച്ചു തരണേ ദേവീ'. ഇപ്രകാരമുള്ള മനോവിഷമത്തോടെ
+                            പുലർകാലത്തിൽ യാത്രയാകാമെന്നു നിനച്ച് അവിടത്തെ ഊട്ടുപുരയിൽത്തന്നെ ഉറങ്ങാൻ കിടന്നു. ഉറക്കത്തിൽ
+                            അത്യത്ഭുതമായി ഒരു ദർശന സൗഭാഗ്യം കാണുമാറായി.
+
+                        </p>
+                    </div>
+                    <div class="col-lg-3">
+                        <h3 class="text-white text-capitalize  pt-5 " style="border-bottom: 2px solid #fff;">Get in
+                            Touch</h3>
+                        <h6>
+                            <p class="text-white" style="margin-left:10px;">Reg-No:</p>
+                        </h6>
+
+                        <h6>
+                            <p class="text-white" style="margin-left:10px;">Sree Uthrathil Bagavathy Temple</br>
+                                Thirunarayanapuram</br> Thiruvazhiyode</br> Kerala-679514</Thiruvazhiyode-679514>
+                            </p>
+                        </h6>
+                        <h6>
+                            <p class="text-white" style="margin-left:10px;"><a
+                                    href="mailto:uthrathilbhagavathytemple@gmail.com"
+                                    style="text-decoration:none;color:white;font-size:15px;"><i
+                                        class="bi bi-envelope-fill"></i>uthrathilbhagavathytemple@gmail.com</a></p>
+                        </h6>
+                        <h6>
+                            <p class="text-white" style="margin-left:10px;"> <a href="tel:9056789012"
+                                    style="text-decoration:none;color:white;font-size:15px;"><i
+                                        class="bi bi-telephone-fill"></i>9056789012</a></p>
+                        </h6>
+
+
+
+                    </div>
+                    <div class="col-lg-3">
+                        <h3 class="text-white text-uppercase pt-5  " style="border-bottom: 2px solid #fff;">Follow us
+                        </h3>
+                        <div class="footer-col">
+                            <div class="social-links mt-5">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+    </section> -->
+    <script>
+    var input = document.querySelector('.pswrd');
+    var show = document.querySelector('.show');
+    show.addEventListener('click', active);
+
+    function active() {
+        if (input.type === "password") {
+            input.type = "text";
+            show.style.color = "#1DA1F2";
+            show.textContent = "HIDE";
+        } else {
+            input.type = "password";
+            show.textContent = "SHOW";
+            show.style.color = "#111";
+        }
+    }
+    </script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+</body>
+
+</html>
+</body>
+</html>
